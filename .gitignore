@@ -1,5 +1,4 @@
-#source/.sass-cache/
-!#source/styles.scss
-.git/
 #source/
+.git/
 *.map
+*.scss
