@@ -59,9 +59,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 @font-face {
-  font-family: 'kayakregular';
-  src: url("fonts/kayakregular.eot");
-  src: url("fonts/kayakregular.eot") format("embedded-opentype"), url("fonts/kayakregular.woff2") format("woff2"), url("fonts/kayakregular.woff") format("woff"), url("fonts/kayakregular.ttf") format("truetype"), url("fonts/kayakregular.svg#kayakregular") format("svg");
+  font-family: 'KayakSansRegular';
+  src: url("fonts/KayakSansRegular.eot");
+  src: url("fonts/KayakSansRegular.eot") format("embedded-opentype"), url("fonts/KayakSansRegular.woff2") format("woff2"), url("fonts/KayakSansRegular.woff") format("woff"), url("fonts/KayakSansRegular.ttf") format("truetype"), url("fonts/KayakSansRegular.svg#KayakSansRegular") format("svg");
   font-weight: 400;
   font-style: normal; }
 @font-face {
@@ -88,11 +88,65 @@ h1, h2, h3, h4, h5, h6 {
   src: url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.eot") format("embedded-opentype"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.woff2") format("woff2"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.woff") format("woff"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.ttf") format("truetype"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.svg#TimesNewRomanPSMTTimesNewRomanRegular") format("svg");
   font-weight: 400;
   font-style: normal; }
+.header_btn, .header_content-btn {
+  border-radius: 10px;
+  color: white;
+  font-family: 'kayaksansbold', sans-serif;
+  background-color: #6ECE0F; }
+
+.header_title {
+  font-family: 'kayaksansbold', sans-serif;
+  font-size: 50px;
+  line-height: 70px; }
+
+.header_text {
+  font-family: 'KayakSansRegular', sans-serif;
+  font-size: 21px; }
+
+span {
+  color: #5FB709; }
+
+body {
+  max-width: 1920px; }
+
+header {
+  color: black;
+  background: url("../img/Header Bg1.png") no-repeat;
+  background-size: contain; }
+
 .container {
-  max-width: 1570px;
+  max-width: 1640px;
   margin: auto; }
 
 .header_top {
-  text-align: end; }
+  text-align: end;
+  padding-top: 47px; }
+
+.header_btn {
+  font-size: 19px;
+  padding: 8px 25px 11px 27px;
+  right: 35px; }
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 134px; }
+
+.header_content-box {
+  min-width: 415px;
+  width: 100%; }
+
+.header_title {
+  padding-bottom: 33px; }
+
+.header_text {
+  padding-bottom: 46px; }
+
+.header_content-btn {
+  font-size: 25px;
+  padding: 17px 25px 21px 34px; }
+
+.onion {
+  position: absolute; }
 
 /*# sourceMappingURL=styles.css.map */
