@@ -107,34 +107,36 @@ span {
   color: #5FB709; }
 
 body {
-  max-width: 1920px; }
+  max-width: 1920px;
+  width: 100%;
+  background: url("../img/Header Bg3.png") no-repeat;
+  background-size: cover; }
 
 header {
-  color: black;
-  background: url("../img/Header Bg1.png") no-repeat;
-  background-size: contain; }
+  color: black; }
 
 .container {
-  max-width: 1640px;
-  margin: auto; }
+  max-width: 1670px;
+  padding: 0 15px;
+  margin: 0 auto; }
 
 .header_top {
-  text-align: end;
-  padding-top: 47px; }
+  text-align: end; }
 
 .header_btn {
   font-size: 19px;
   padding: 8px 25px 11px 27px;
-  right: 35px; }
+  margin: 47px 35px 0 0; }
 
 .header_content {
   display: flex;
   justify-content: space-between;
-  padding-top: 134px; }
+  padding: 134px 0 325px 0; }
 
 .header_content-box {
   min-width: 415px;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .header_title {
   padding-bottom: 33px; }
@@ -147,6 +149,21 @@ header {
   padding: 17px 25px 21px 34px; }
 
 .onion {
-  position: absolute; }
+  position: absolute;
+  transform: translate(130%, -40%); }
+
+.header_content-2 {
+  display: flex;
+  gap: 135px;
+  padding-left: 35px; }
+
+.header_content-3 {
+  position: relative;
+  margin-top: 77px; }
+
+.herb {
+  position: absolute;
+  right: 0;
+  transform: translate(15%, -130%); }
 
 /*# sourceMappingURL=styles.css.map */
