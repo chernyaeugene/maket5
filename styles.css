@@ -24,7 +24,6 @@ html, body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -109,7 +108,7 @@ span {
 body {
   max-width: 1920px;
   width: 100%;
-  background: url("../img/Header Bg3.png") no-repeat;
+  background: url("/img/Header Bg3.png") no-repeat;
   background-size: cover; }
 
 header {

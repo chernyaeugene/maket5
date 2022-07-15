@@ -1,3 +1,4 @@
-#source/
+.#source/
 .git/
 *.map
+*.scssc
