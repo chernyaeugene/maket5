@@ -2,4 +2,4 @@
 .git/
 *.map
 *.scssc
-.sass-cache
+.sass-cache/
