@@ -151,12 +151,12 @@ header {
   position: absolute;
   transform: translate(130%, -40%); }
 
-.main_content-1 {
+.main_content {
   display: flex;
   gap: 135px;
   padding-left: 35px; }
 
-.main_content-2 {
+.main_inner-content {
   position: relative;
   margin-top: 77px; }
 
