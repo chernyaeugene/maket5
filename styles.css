@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.eot") format("embedded-opentype"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.woff2") format("woff2"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.woff") format("woff"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.ttf") format("truetype"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.svg#TimesNewRomanPSMTTimesNewRomanRegular") format("svg");
   font-weight: 400;
   font-style: normal; }
-.header_btn, .header_content-btn {
+.header_btn, .header_content-btn, .main_content-btn-form {
   border-radius: 10px;
   color: white;
   font-family: 'kayaksansbold', sans-serif;
@@ -115,8 +115,8 @@ header {
   color: black; }
 
 .container {
-  max-width: 1670px;
-  padding: 0 15px;
+  max-width: 1700px;
+  padding: 0 30px;
   margin: 0 auto; }
 
 .header_top {
@@ -151,12 +151,12 @@ header {
   position: absolute;
   transform: translate(130%, -40%); }
 
-.header_content-2 {
+.main_content-1 {
   display: flex;
   gap: 135px;
   padding-left: 35px; }
 
-.header_content-3 {
+.main_content-2 {
   position: relative;
   margin-top: 77px; }
 
@@ -164,5 +164,24 @@ header {
   position: absolute;
   right: 0;
   transform: translate(15%, -130%); }
+
+.form_discover {
+  display: flex; }
+
+#email {
+  width: 480px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #9B9A9A;
+  margin-right: 10px; }
+
+input::placeholder {
+  font-family: 'KayakSansRegular', sans-serif;
+  font-size: 16px;
+  color: #0f141e; }
+
+.main_content-btn-form {
+  font-size: 23px;
+  padding: 19px 46px 21px 53px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -118,8 +118,8 @@ header {
   color: black;
 }
 .container {
-  max-width: 1670px;
-  padding: 0 15px;
+  max-width: 1700px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 .header_top {
@@ -158,12 +158,12 @@ header {
   position: absolute;
   transform: translate(130%, -40%);
 }
-.header_content-2 {
+.main_content-1 {
   display: flex;
   gap: 135px;
   padding-left: 35px;
 }
-.header_content-3 {
+.main_content-2 {
   position: relative;
   margin-top: 77px;
 }
@@ -171,4 +171,26 @@ header {
   position: absolute;
   right: 0;
   transform: translate(15%, -130%);
+}
+.form_discover {
+  display: flex;
+}
+#email {
+  width: 480px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #9B9A9A;
+  margin-right: 10px;
+
+}
+input::placeholder {
+  font-family: 'KayakSansRegular', sans-serif;
+  font-size: 16px;
+  color: #0f141e;
+
+}
+.main_content-btn-form {
+  @extend %btn;
+  font-size: 23px;
+  padding: 19px 46px 21px 53px;
 }
