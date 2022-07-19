@@ -95,6 +95,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   color: white;
   font-family: 'kayaksansbold', sans-serif;
   background-color: #6ECE0F;
+  font-size: 23px;
 }
 %h_txt {
   font-family: 'kayaksansbold', sans-serif;
@@ -161,7 +162,7 @@ header {
 .main_content {
   display: flex;
   gap: 135px;
-  padding-left: 35px;
+  padding: 0 0 160px 35px;
 }
 .main_inner-content {
   position: relative;
@@ -187,10 +188,36 @@ input::placeholder {
   font-family: 'KayakSansRegular', sans-serif;
   font-size: 16px;
   color: #0f141e;
-
 }
 .main_content-btn-form {
   @extend %btn;
-  font-size: 23px;
   padding: 19px 46px 21px 53px;
+}
+.main_content-1 {
+  display: flex;
+  gap: 200px;
+}
+.main_content-1_text {
+  min-width: 690px;
+}
+.wave {
+  margin: 167px 0 126px 160px;
+}
+.main_title {
+  @extend %h_txt;
+  margin-bottom: 42px;
+}
+.main_content-btn-form {
+  @extend %btn;
+  padding: 19px 46px 21px 53px;
+}
+.cuc {
+  transform: translate(-75%, 125%);
+}
+.main_content-1_img {
+  display: flex;
+  gap: 73px;
+}
+.telephone {
+  transform: translateY(30px);
 }
