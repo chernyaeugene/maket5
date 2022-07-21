@@ -105,6 +105,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 %p_txt {
   font-family: 'KayakSansRegular', sans-serif;
   font-size: 21px;
+  line-height: 34px;
 }
 span {
   color: #5FB709;
@@ -196,7 +197,7 @@ input::placeholder {
 .main_content-1 {
   display: flex;
   gap: 75px;
-  padding-bottom: 283px;
+  margin-bottom: 170px;
 }
 .main_content-1_text {
   min-width: 690px;
@@ -224,7 +225,6 @@ input::placeholder {
 .main_content-2 {
   display: flex;
   gap: 100px;
-  padding-bottom: 20px;
 }
 .main_content-2_img {
   margin-top: 190px;
@@ -250,7 +250,7 @@ input::placeholder {
 }
 .main_content-3 {
   display: flex;
-  margin-bottom: 345px;
+  margin-bottom: 300px;
 }
 .coffe {
   transform: translateX(200%);
@@ -281,6 +281,7 @@ input::placeholder {
 }
 .main_content-4 {
   display: flex;
+  margin-bottom: 300px;
 }
 .vgtbl {
   margin: 30px 0 0 30px;
@@ -289,7 +290,7 @@ input::placeholder {
   margin-left: 25px;
 }
 .wave_3 {
-  transform: rotate(10deg) translateX(-75%);
+  transform: rotate(2deg) translateX(-75%);
   margin-bottom: 100px;
 }
 .img_inner-1 {
@@ -302,7 +303,8 @@ input::placeholder {
   @extend %h_txt;
   font-size: 40px;
   line-height: 51px;
-
+  min-width: 400px;
+  width: 100%;
 }
 .img_inner-2 {
   display: flex;
@@ -323,5 +325,31 @@ input::placeholder {
   transform: translateY(-65%);
 }
 .hrb_2 {
-  transform: translateX(510px);
+  transform: translateX(440px);
+}
+.main_content-5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+.tbl_hnd {
+  margin-bottom: 7px;
+}
+.main_content-5_title {
+  @extend %h_txt;
+  color: #5FB709;
+  font-size: 35px;
+  margin-bottom: 24px;
+}
+.main_content-5_text{
+  @extend %p_txt;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.main_content-5_btn {
+  @extend %btn;
+  padding: 14px 33px 16px 37px;
+}
+.main_content-5_img {
+  margin: 0 87px 0 61px;
 }
