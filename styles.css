@@ -99,10 +99,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 50px;
   line-height: 70px; }
 
-.header_text, .main_content-5_text {
+.header_text, .main_content-5_text, .lan_sel, .dwnl_txt {
   font-family: 'KayakSansRegular', sans-serif;
   font-size: 21px;
   line-height: 34px; }
+
+a {
+  font-family: 'kayaksanslight', sans-serif;
+  font-size: 20px;
+  line-height: 51px;
+  color: white; }
 
 span {
   color: #5FB709; }
@@ -334,5 +340,49 @@ input::placeholder {
 
 .main_content-5_img {
   margin: 0 87px 0 61px; }
+
+footer {
+  background: url("img/footer_bg.png") no-repeat;
+  background-size: cover; }
+
+.footer_content {
+  padding-bottom: 50px; }
+
+.f_l {
+  margin: 135px 0 40px 0; }
+
+.footer_nav {
+  display: flex;
+  justify-content: space-between; }
+
+.language_img {
+  display: flex; }
+
+.lan_sel {
+  margin-left: 17px;
+  font-size: 20px;
+  color: white;
+  background-color: transparent; }
+
+.lng_lin {
+  margin: 8px 0 25px 0; }
+
+.soc_list {
+  display: flex;
+  gap: 26px; }
+
+.dwnl_txt {
+  color: white;
+  margin-bottom: 35px; }
+
+.plc_mrk {
+  display: flex;
+  gap: 20px; }
+
+.plc_mrk-btn {
+  transition: transform .3s ease; }
+
+.plc_mrk-btn:hover {
+  box-shadow: 10px 5px 50px #5FB709; }
 
 /*# sourceMappingURL=styles.css.map */
