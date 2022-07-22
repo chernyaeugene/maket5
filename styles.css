@@ -116,8 +116,7 @@ span {
 body {
   max-width: 1920px;
   width: 100%;
-  background: url("img/Header Bg3.png") no-repeat;
-  background-size: cover; }
+  background-color: rgba(237, 238, 240, 0.75); }
 
 header {
   color: black; }
@@ -346,14 +345,16 @@ footer {
   background-size: cover; }
 
 .footer_content {
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  position: relative; }
 
 .f_l {
-  margin: 135px 0 40px 0; }
+  position: absolute; }
 
 .footer_nav {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 175px; }
 
 .language_img {
   display: flex; }
