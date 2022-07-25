@@ -120,33 +120,26 @@ body {
   max-width: 1920px;
   width: 100%;
   background-color: rgba(237, 238, 240, 0.75);
-  //background: url("img/Header Bg3_2.png") no-repeat;
-  //background-size: cover;
-}
-header {
-  color: black;
 }
 .container {
   max-width: 1700px;
   padding: 0 30px;
   margin: 0 auto;
 }
-.header_btn {
-  @extend %btn;
-  font-size: 19px;
-  padding: 8px 25px 11px 27px;
-  margin: 47px 35px 0 0;
-}
+
+
 //.header_content {
 //  padding: 134px 0 325px 0;
 //}
 .header_content-box {
   display: flex;
-  margin-top: 225px;
+  padding-top: 225px;
+  position: relative;
 }
 .header_title-txt {
-  min-width: 430px;
+  max-width: 430px;
   width: 100%;
+  z-index: 3;
 }
 .header_title {
   @extend %h_txt;
@@ -163,34 +156,41 @@ header {
 }
 .header_img {
   display: flex;
-  position: relative;
 }
 .header_btn {
-   position: absolute;
-   top: -220px;
-   right: 0;
-   z-index: 4;
+   @extend %btn;
+  font-size: 19px;
+  padding: 8px 25px 11px 27px;
+  margin: 47px 35px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
 }
 .onion {
-  transform: translate(10%, 75%);
+  margin: 200px 0 0 26px;
+  z-index: 3;
 }
 .header_plt {
-  transform: translate(39px, -225px);
+  //transform: translate(39px, -225px);px
+  position: absolute;
+  top: 0;
+  right: -140px;
   z-index: 2;
 }
 .main_content {
   display: flex;
   gap: 135px;
-  padding: 0 0 160px 35px;
+  padding: 235px 0 160px 35px;
+  position: relative;
 }
 .main_inner-content {
-  position: relative;
   margin-top: 77px;
 }
 .herb {
   position: absolute;
-  right: 0;
-  transform: translate(15%, -130%);
+  top: 100px;
+  right: 390px;
 }
 .form_discover {
   display: flex;
@@ -211,6 +211,8 @@ input::placeholder {
 .main_content-btn-form {
   @extend %btn;
   padding: 19px 46px 21px 53px;
+  min-width: 200px;
+  width: 100%;
 }
 .main_content-1 {
   display: flex;

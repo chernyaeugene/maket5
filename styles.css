@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.eot") format("embedded-opentype"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.woff2") format("woff2"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.woff") format("woff"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.ttf") format("truetype"), url("fonts/TimesNewRomanPSMTTimesNewRomanRegular.svg#TimesNewRomanPSMTTimesNewRomanRegular") format("svg");
   font-weight: 400;
   font-style: normal; }
-.header_btn, .header_content-btn, .main_content-btn-form, .main_content-5_btn {
+.header_content-btn, .header_btn, .main_content-btn-form, .main_content-5_btn {
   border-radius: 10px;
   color: white;
   font-family: 'kayaksansbold', sans-serif;
@@ -118,26 +118,20 @@ body {
   width: 100%;
   background-color: rgba(237, 238, 240, 0.75); }
 
-header {
-  color: black; }
-
 .container {
   max-width: 1700px;
   padding: 0 30px;
   margin: 0 auto; }
 
-.header_btn {
-  font-size: 19px;
-  padding: 8px 25px 11px 27px;
-  margin: 47px 35px 0 0; }
-
 .header_content-box {
   display: flex;
-  margin-top: 225px; }
+  padding-top: 225px;
+  position: relative; }
 
 .header_title-txt {
-  min-width: 430px;
-  width: 100%; }
+  max-width: 430px;
+  width: 100%;
+  z-index: 3; }
 
 .header_title {
   padding-bottom: 33px; }
@@ -150,35 +144,40 @@ header {
   padding: 17px 25px 21px 34px; }
 
 .header_img {
-  display: flex;
-  position: relative; }
+  display: flex; }
 
 .header_btn {
+  font-size: 19px;
+  padding: 8px 25px 11px 27px;
+  margin: 47px 35px 0 0;
   position: absolute;
-  top: -220px;
+  top: 0;
   right: 0;
   z-index: 4; }
 
 .onion {
-  transform: translate(10%, 75%); }
+  margin: 200px 0 0 26px;
+  z-index: 3; }
 
 .header_plt {
-  transform: translate(39px, -225px);
+  position: absolute;
+  top: 0;
+  right: -140px;
   z-index: 2; }
 
 .main_content {
   display: flex;
   gap: 135px;
-  padding: 0 0 160px 35px; }
+  padding: 235px 0 160px 35px;
+  position: relative; }
 
 .main_inner-content {
-  position: relative;
   margin-top: 77px; }
 
 .herb {
   position: absolute;
-  right: 0;
-  transform: translate(15%, -130%); }
+  top: 100px;
+  right: 390px; }
 
 .form_discover {
   display: flex; }
@@ -196,7 +195,9 @@ input::placeholder {
   color: #0f141e; }
 
 .main_content-btn-form {
-  padding: 19px 46px 21px 53px; }
+  padding: 19px 46px 21px 53px;
+  min-width: 200px;
+  width: 100%; }
 
 .main_content-1 {
   display: flex;
