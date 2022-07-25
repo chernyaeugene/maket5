@@ -218,6 +218,7 @@ input::placeholder {
 }
 .wave {
   margin: 167px 0 126px 160px;
+  transform: rotate(-2deg);
 }
 .main_title {
   @extend %h_txt;
@@ -264,8 +265,7 @@ input::placeholder {
   margin-bottom: 300px;
 }
 .coffe {
-  transform: translateX(200%);
-  margin-bottom: 64px;
+  margin: 0 0 64px 520px;
 }
 .green_targ {
   display: flex;
@@ -273,7 +273,7 @@ input::placeholder {
   margin: 72px 0 46px 110px;
 }
 .trg_2 {
-  transform: translateY(20px);
+  margin-top: 20px;
 }
 .sushi {
   display: flex;
@@ -281,7 +281,7 @@ input::placeholder {
   margin-left: 135px;
 }
 .sishi_2 {
-  transform: translateY(85px);
+  margin-top: 85px;
 }
 .main_content-3_img {
   display: flex;
@@ -293,12 +293,17 @@ input::placeholder {
 .main_content-4 {
   display: flex;
   margin-bottom: 300px;
+  position: relative;
 }
 .vgtbl {
-  margin: 30px 0 0 30px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
 }
 .main_content-4_img-2 {
-  margin-left: 25px;
+  margin-left: 640px;
+  z-index: 3;
 }
 .wave_3 {
   transform: rotate(2deg) translateX(-75%);
@@ -332,11 +337,16 @@ input::placeholder {
   margin-left: 290px;
 }
 .plt_hrb {
-  margin: 0 0 240px 110px;
-  transform: translateY(-65%);
+  position: absolute;
+  z-index: 4;
+  top: -200px;
+  right: 30px;
 }
 .hrb_2 {
-  transform: translateX(440px);
+  position: absolute;
+  z-index: 4;
+  right: -130px;
+  bottom: 100px;
 }
 .main_content-5 {
   display: flex;
@@ -365,24 +375,27 @@ input::placeholder {
   margin: 0 87px 0 61px;
 }
 footer {
-  background: url("img/footer_bg.png") no-repeat;
-  background-size: cover;
-
+  //background: url("img/footer_bg.png") no-repeat;
+  //background-size: cover;
 }
 .footer_content {
   padding: 175px 0 50px 0;
-}
-.footer_nav {
-  display: flex;
-  justify-content: space-between;
   position: relative;
 }
-.f_l {
-   position: absolute;
-  top: -40px;
-  right: -30px;
-   //transform: translate(-8%, -45px);
- }
+.footer_inner-box {
+  position: absolute;
+}
+.footer_nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f141e;
+}
+//.f_l {
+//   position: absolute;
+//  top: -40px;
+//  right: -30px;
+// }
 .language_img {
   display: flex;
 }
