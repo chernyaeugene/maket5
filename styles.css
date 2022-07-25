@@ -196,8 +196,7 @@ input::placeholder {
 
 .main_content-btn-form {
   padding: 19px 46px 21px 53px;
-  min-width: 200px;
-  width: 100%; }
+  min-width: 200px; }
 
 .main_content-1 {
   display: flex;
@@ -221,9 +220,6 @@ input::placeholder {
 
 .main_content-1_img {
   display: flex; }
-
-.telephone {
-  transform: translateY(30px); }
 
 .main_content-2 {
   display: flex;
