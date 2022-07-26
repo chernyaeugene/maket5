@@ -121,7 +121,7 @@ body {
   width: 100%;
   background-color: rgba(237, 238, 240, 0.75);
 }
-.container {
+.container, .container_2 {
   max-width: 1700px;
   padding: 0 30px;
   margin: 0 auto;
@@ -237,6 +237,7 @@ input::placeholder {
 .main_content-2 {
   display: flex;
   gap: 100px;
+  position: relative;
 }
 .main_content-2_img {
   margin-top: 190px;
@@ -244,18 +245,23 @@ input::placeholder {
 .hnd_plt {
   transform: translateX(-25%);
 }
+
 .mshr {
   transform: translateX(135%);
 }
 .text_img {
   display: flex;
   margin-top: 95px;
+  z-index: 3;
 }
 .main_content-2_title {
   @extend %h_txt;
 }
 .plt_cnt {
-  transform: translateX(110%);
+  position: absolute;
+  top: 305px;
+  right: -140px;
+  z-index: 2;
 }
 .wave_2 {
   margin-top: 160px;
@@ -374,28 +380,30 @@ input::placeholder {
 .main_content-5_img {
   margin: 0 87px 0 61px;
 }
-footer {
-  //background: url("img/footer_bg.png") no-repeat;
-  //background-size: cover;
+.container_2 {
+ position: relative;
 }
 .footer_content {
-  padding: 175px 0 50px 0;
-  position: relative;
-}
-.footer_inner-box {
   position: absolute;
+  background: url("img/footer_bg.png") no-repeat;
+  background-size: cover;
+  right: -110px;
+  top: 0;
+  left: -110px;
+  z-index: 2;
 }
 .footer_nav {
-  position: absolute;
   display: flex;
   justify-content: space-between;
-  background-color: #0f141e;
+  z-index: 3;
+  margin: 170px 110px 50px 210px;
 }
-//.f_l {
-//   position: absolute;
-//  top: -40px;
-//  right: -30px;
-// }
+.f_l {
+   position: absolute;
+  top: 135px;
+  right: 0;
+  z-index: 4;
+ }
 .language_img {
   display: flex;
 }
