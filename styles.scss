@@ -167,7 +167,6 @@ body {
   z-index: 3;
 }
 .header_plt {
-  //transform: translate(39px, -225px);px
   position: absolute;
   top: 0;
   right: -140px;
@@ -196,7 +195,6 @@ body {
   border-radius: 10px;
   border: 1px solid #9B9A9A;
   margin-right: 10px;
-
 }
 input::placeholder {
   font-family: 'KayakSansRegular', sans-serif;
@@ -399,11 +397,11 @@ input::placeholder {
   margin: 170px 110px 50px 210px;
 }
 .f_l {
-   position: absolute;
+  position: absolute;
   top: 135px;
   right: 0;
   z-index: 4;
- }
+}
 .language_img {
   display: flex;
 }
