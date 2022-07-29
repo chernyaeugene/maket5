@@ -92,7 +92,9 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-family: 'kayaksansbold', sans-serif;
   background-color: #6ECE0F;
-  font-size: 23px; }
+  font-size: 23px;
+  transition: box-shadow 0.4s ease;
+  cursor: pointer; }
 
 .header_title, .main_title, .main_content-2_title, .main_content-4_title, .main_content-5_title {
   font-family: 'kayaksansbold', sans-serif;
@@ -143,6 +145,9 @@ body {
   font-size: 25px;
   padding: 17px 25px 21px 34px; }
 
+.header_content-btn:hover {
+  box-shadow: 10px 5px 50px #fdd926; }
+
 .header_img {
   display: flex; }
 
@@ -154,6 +159,9 @@ body {
   top: 0;
   right: 0;
   z-index: 4; }
+
+.header_btn:hover {
+  box-shadow: 10px 5px 50px #fdd926; }
 
 .onion {
   margin: 200px 0 0 26px;
@@ -198,6 +206,9 @@ input::placeholder {
   padding: 19px 46px 21px 53px;
   min-width: 200px; }
 
+.main_content-btn-form:hover {
+  box-shadow: 10px 5px 50px #fdd926; }
+
 .main_content-1 {
   display: flex;
   gap: 75px;
@@ -215,6 +226,9 @@ input::placeholder {
 
 .main_content-btn-form {
   padding: 19px 46px 21px 53px; }
+
+.main_content-btn-form:hover {
+  box-shadow: 10px 5px 50px #fdd926; }
 
 .cuc {
   transform: translate(-75%, 125%); }
@@ -317,7 +331,7 @@ input::placeholder {
   margin-bottom: 140px; }
 
 .google, .apl {
-  transition: transform .3s ease; }
+  transition: transform 0.4s ease; }
 
 .google:hover, .apl:hover {
   transform: translate(5px, 5px); }
@@ -356,6 +370,9 @@ input::placeholder {
 
 .main_content-5_btn {
   padding: 14px 33px 16px 37px; }
+
+.main_content-5_btn:hover {
+  box-shadow: 10px 5px 50px #fdd926; }
 
 .main_content-5_img {
   margin: 0 87px 0 61px; }
@@ -409,7 +426,7 @@ input::placeholder {
   gap: 20px; }
 
 .plc_mrk-btn {
-  transition: transform .3s ease; }
+  transition: box-shadow 0.4s ease; }
 
 .plc_mrk-btn:hover {
   box-shadow: 10px 5px 50px #5FB709; }
